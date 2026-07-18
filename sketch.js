@@ -106,12 +106,6 @@ let emotionTaxonomy = { //defines visual attributes of each emotion
     smoothness: 1
   },
 
-  Power: {
-    colours: {Black:1,Purple:1},
-    shape: {Square:1, Triangle:1, Circle:1},
-    smoothness: 1
-  },
-
   Calm: {
     colours: {Blue:1,Green:1,Purple:1,White:1},
     shape: {Circle:1},
@@ -138,68 +132,75 @@ let emotionTaxonomy = { //defines visual attributes of each emotion
 
   Tired: {
     colours: {Grey:1},
-    shape: {},
-    smoothness: 1
-  },
-
-  Fear: {
-    colours: {Grey:1,Purple:1,Black:1},
-    shape: {Square:1, Triangle:1},
+    shape: {Square:1},
     smoothness: 0
   },
 
-  Sad: {
-    colours: {Purple:1,Black:1,Blue:1,Brown:1,Grey:1},
-    shape: {Square:1, Triangle:1},
-    smoothness: 0
-  },
-
-  Bored: {
-    colours: {Grey:1,Brown:1},
-    shape: {Square:1, Triangle:1},
+  Power: {
+    colours: {Black:1,Purple:1},
+    shape: {Square:1},
     smoothness: 0
   },
 
   Regret: {
     colours: {Grey:1},
     shape: {Square:1, Triangle:1},
-    smoothness: 0
+    smoothness: -1
   },
 
   Disappointment: {
     colours: {Grey:1},
     shape: {Square:1, Triangle:1},
-    smoothness: 0
+    smoothness: -1
+  },
+
+
+  Fear: {
+    colours: {Grey:1,Purple:1,Black:1},
+    shape: {Square:1, Triangle:1},
+    smoothness: -1
+  },
+
+  Sad: {
+    colours: {Purple:1,Black:1,Blue:1,Brown:1,Grey:1},
+    shape: {Square:1, Triangle:1},
+    smoothness: -1
+  },
+
+  Bored: {
+    colours: {Grey:1,Brown:1},
+    shape: {Square:1, Triangle:1},
+    smoothness: -1
   },
 
   Hate: {
     colours: {Black:1},
     shape: {Square:1, Triangle:1},
-    smoothness: 0
+    smoothness: -1
   },
 
   Evil: {
     colours: {Black:1},
     shape: {Square:1, Triangle:1},
-    smoothness: 0
+    smoothness: -1
   },
 
   Disgust: {
     colours: {Brown:1},
     shape: {Square:1, Triangle:1},
-    smoothness: 0
+    smoothness: -1
   },
 
   Anger: {
     colours: {Red:1,Black:1},
     shape: {Square:1, Triangle:1},
-    smoothness: 0
+    smoothness: -1
   },
 
   Envy: {
     colours: {Green:1},
     shape: {Square:1, Triangle:1},
-    smoothness: 0,
+    smoothness: -1,
   }
 }
 
